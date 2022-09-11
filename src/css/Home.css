@@ -1,0 +1,35 @@
+.jumbotron {
+  background-color: #8f5bd8;
+}
+
+.jb-text {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+
+.jb-desc {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.jb-btn {
+  margin-top: 25px;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #8f5bd8 !important;
+  background-color: #fff !important;
+  border-color: #8f5bd8 !important;
+}
+
+.jb-btn:hover {
+  border: solid 1px #fff !important;
+}
+
+.jumbotron-img {
+  position: absolute;
+  height: 450px !important;
+  top: 14%;
+}
