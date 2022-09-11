@@ -10,13 +10,13 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
-            <Nav.Link href='#home'>HOME</Nav.Link>
-            <Nav.Link href='#services'>SERVICES</Nav.Link>
+            <Nav.Link href='/'>HOME</Nav.Link>
+            <Nav.Link href='/services'>SERVICES</Nav.Link>
             <Nav.Link href='#about'>ABOUT</Nav.Link>
             <Nav.Link href='#testimonial'>TESTIMONIAL</Nav.Link>
             <Nav.Link href='#article'>ARTICLE</Nav.Link>
           </Nav>
-          <Button>Login</Button>
+          <Button href='/login'>Login</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
