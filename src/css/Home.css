@@ -1,5 +1,10 @@
+/* Jumbotron */
 .jumbotron {
   background-color: #8f5bd8;
+}
+
+.jb-row {
+  margin-bottom: -10%;
 }
 
 .jb-text {
@@ -29,7 +34,25 @@
 }
 
 .jumbotron-img {
-  position: absolute;
-  height: 450px !important;
-  top: 14%;
+  position: relative;
+}
+
+/* Layanan */
+.ly-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #504a4a;
+  letter-spacing: 0.065em;
+}
+
+.ly-desc {
+  font-size: 16px;
+  color: #504a4a;
+  letter-spacing: 0.12em;
+}
+
+.ly-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #504a4a;
 }

@@ -17,7 +17,7 @@ function NavigationBar() {
             <Nav.Link href='#article'>ARTICLE</Nav.Link>
           </Nav>
           <Button className='nav-btn' href='/login'>
-            Login
+            LOGIN
           </Button>
         </Navbar.Collapse>
       </Container>
