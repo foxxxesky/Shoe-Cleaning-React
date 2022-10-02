@@ -1,12 +1,13 @@
-import '../css/Navbar.css';
+// import '../css/Navbar.css';
+import '../style/Navbar.sass';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
 function NavigationBar() {
   return (
     <Navbar variant='dark' expand='lg'>
-      <Container>
-        <Navbar.Brand href='#home'>Shoe Cleaning</Navbar.Brand>
+      <Container className='nav-container'>
+        <Navbar.Brand href='/'>Shoe Cleaning</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
@@ -16,7 +17,9 @@ function NavigationBar() {
             <Nav.Link href='#testimonial'>TESTIMONIAL</Nav.Link>
             <Nav.Link href='#article'>ARTICLE</Nav.Link>
           </Nav>
-          <Button href='/login'>Login</Button>
+          <Button className='nav-btn' href='/login'>
+            LOGIN
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
