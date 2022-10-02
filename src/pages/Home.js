@@ -1,4 +1,4 @@
-import '../css/Home.css';
+import '../style/Home.sass';
 import NavigationBar from '../components/Navbar';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import JumbotronChar from '../images/jumbotron-img.png';
@@ -32,16 +32,16 @@ function Home() {
           <p className='text-center ly-desc'>Kami telah mencuci lebih dari 391,812 pasang sepatu, dan akan terus bertambah... Berikut jasa yang kami tawarkan</p>
           <Row className='py-3'>
             <Col sm={3}>
-              <CardLayanan images={lyStandard} namaLayanan='Standart Celan' />
+              <CardLayanan images={lyStandard} namaLayanan='Standart Clean' />
             </Col>
             <Col sm={3}>
-              <CardLayanan images={lyDeep} namaLayanan='Deep Celan' />
+              <CardLayanan images={lyDeep} namaLayanan='Deep Clean' />
             </Col>
             <Col sm={3}>
-              <CardLayanan images={lyPremium} namaLayanan='Premium Celan' />
+              <CardLayanan images={lyPremium} namaLayanan='Premium Clean' />
             </Col>
             <Col sm={3}>
-              <CardLayanan images={lyWeekend} namaLayanan='Weekend Celan' />
+              <CardLayanan images={lyWeekend} namaLayanan='Weekend Clean' />
             </Col>
           </Row>
         </Container>

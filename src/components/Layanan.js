@@ -1,4 +1,4 @@
-import '../css/Home.css';
+import '../style/Home.sass';
 import { Image } from 'react-bootstrap';
 
 function CardLayanan(props) {

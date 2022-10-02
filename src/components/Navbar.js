@@ -1,4 +1,5 @@
-import '../css/Navbar.css';
+// import '../css/Navbar.css';
+import '../style/Navbar.sass';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
